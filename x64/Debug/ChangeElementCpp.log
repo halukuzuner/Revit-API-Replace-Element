@@ -1,7 +1,0 @@
-﻿  Command.cpp
-D:\IDrive-Sync\Visual Studio\Projects\ChangeElementCpp\ChangeElementCpp\EventHandler.h(47,22): warning C4101: 'e': unreferenced local variable
-  MainForm.cpp
-D:\IDrive-Sync\Visual Studio\Projects\ChangeElementCpp\ChangeElementCpp\EventHandler.h(47,22): warning C4101: 'e': unreferenced local variable
-  Generating Code...
-  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  ChangeElementCpp.vcxproj -> D:\IDrive-Sync\Visual Studio\Projects\ChangeElementCpp\x64\Debug\ChangeElementCpp.dll

@@ -1,2 +1,0 @@
-
-Add addin file to "C:\Users\Haluk\AppData\Roaming\Autodesk\Revit\Addins\2023"

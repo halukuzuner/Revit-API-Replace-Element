@@ -1,6 +1,0 @@
-D:\Desktop\ChangeElementCpp\ChangeElementCpp\x64\Debug\ChangeElementCpp.vcxproj.AssemblyReference.cache
-D:\Desktop\ChangeElementCpp\ChangeElementCpp\x64\Debug\ChangeElementCpp.MainForm.resources
-D:\Desktop\ChangeElementCpp\ChangeElementCpp\x64\Debug\ChangeElementCpp.vcxproj.GenerateResource.cache
-D:\Documents\Visual Studio 2022\Projects\ChangeElementCpp\ChangeElementCpp\x64\Debug\ChangeElementCpp.vcxproj.AssemblyReference.cache
-D:\Documents\Visual Studio 2022\Projects\ChangeElementCpp\ChangeElementCpp\x64\Debug\ChangeElementCpp.MainForm.resources
-D:\Documents\Visual Studio 2022\Projects\ChangeElementCpp\ChangeElementCpp\x64\Debug\ChangeElementCpp.vcxproj.GenerateResource.cache

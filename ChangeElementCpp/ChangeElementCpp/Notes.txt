@@ -1,2 +1,4 @@
 
-Add addin file to "C:\Users\Haluk\AppData\Roaming\Autodesk\Revit\Addins\2023"
+*   Add addin file to "C:\Users\Haluk\AppData\Roaming\Autodesk\Revit\Addins\2023"
+
+*   If program doesn't get picture from resource file, set "Resource Logical Name" paramater in properties of Resource.resx to "ChangeElementCpp.Resource.resources" More infoemation is at "https://stackoverflow.com/a/47947411/18679748"

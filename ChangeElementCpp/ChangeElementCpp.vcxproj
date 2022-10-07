@@ -84,6 +84,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <EmbedManagedResourceFile>D:\IDrive-Sync\Visual Studio\Projects\ChangeElementCpp\ChangeElementCpp\Resources\ExtCmd32x32.bmp</EmbedManagedResourceFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -120,7 +121,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Command.h" />
+    <ClInclude Include="ExternalCommand.h" />
     <ClInclude Include="EventHandler.h" />
     <ClInclude Include="GlobalVariables.h" />
     <ClInclude Include="MainForm.h">
@@ -134,7 +135,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="ExternalApp.cpp" />
+    <ClCompile Include="ExternalCommand.cpp" />
     <ClCompile Include="MainForm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -148,6 +150,8 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
+    <Image Include="Resources\ExtCmd16x16.bmp" />
+    <Image Include="Resources\ExtCmd32x32.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -173,6 +177,15 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource.resx">
+      <LogicalName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ChangeElementCpp.Resource.resources</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ChangeElement.Addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
